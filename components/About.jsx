@@ -1,4 +1,6 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
+import AboutImg from '../public/assets/about.jpg';
 
 const About = () => {
   return (
@@ -18,11 +20,11 @@ const About = () => {
           <p className='py-2 text-gray-700 underline cursor-pointer'>Checkout some of my latest projects </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <img className='rounded-xl' src="https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="/" />
+        <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

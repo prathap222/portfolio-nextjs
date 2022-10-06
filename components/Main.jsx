@@ -3,6 +3,8 @@ import { FaLinkedinIn, FaGithub, } from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import Link from 'next/link';
+import AboutImg from '../public/assets/about.jpg';
+import Image from 'next/image';
 
 
 const Main = () => {
@@ -58,6 +60,8 @@ const Main = () => {
                   </a>
 
               </div>
+
+          
 
            
 
