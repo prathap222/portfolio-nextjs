@@ -19,13 +19,13 @@ const Navbar = () => {
       router.asPath === '/Wanderlust' ||
       router.asPath === '/story' ||
       router.asPath === '/jungle' ||
-      router.asPath === '/scheduler' 
+      router.asPath === '/scheduler'
     ) {
-      setNavBg('transparent')
-      setLinkColor('#ecf0f3')
+      setNavBg('transparent');
+      setLinkColor('#ecf0f3');
     } else {
-      setNavBg('#ecf0f3')
-      setLinkColor('#1f2937')
+      setNavBg('#ecf0f3');
+      setLinkColor('#1f2937');
     }
 
   }, [router]);
@@ -49,7 +49,7 @@ const Navbar = () => {
     <div style={{background:`${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
       <div className='flex justify-between item-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-        <Image src={NavLogo} alt="/" width='125' height='50' />
+          <Image src={NavLogo} alt="/" width='125' height='50' />
         </Link>
         
         <div>
@@ -83,7 +83,7 @@ const Navbar = () => {
           <div>
             <div  className='flex w-full items-center justify-between'>
               <Link href='/'>
-              <Image src={NavLogo} width='87' height='35' alt='/'/>
+                <Image src={NavLogo} width='87' height='35' alt='/'/>
               </Link>
               
               <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
@@ -118,37 +118,37 @@ const Navbar = () => {
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#5651e5]'>Let's connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-              <a
-              href='https://www.linkedin.com/in/prathap222/'
-              target='_blank'
-              rel='noreferrer'
-            >
-                <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaLinkedinIn/>
-                </div>
+                <a
+                  href='https://www.linkedin.com/in/prathap222/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaLinkedinIn/>
+                  </div>
                 </a>
                 <a
-              href='https://github.com/prathap222'
-              target='_blank'
-              rel='noreferrer'
-            >
-                <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <FaGithub/>
-                </div>
+                  href='https://github.com/prathap222'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaGithub/>
+                  </div>
                 </a>
                 <Link href='/#contact'>
-                <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <AiOutlineMail/>
-                </div>
+                  <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <AiOutlineMail/>
+                  </div>
                 </Link>
                 <a
-              href=' https://resume.creddle.io/resume/59iptgf4c36 '
-              target='_blank'
-              rel='noreferrer'
-            >
-                <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                  <BsFillPersonLinesFill />
-                </div>
+                  href=' https://resume.creddle.io/resume/59iptgf4c36 '
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full bg-[#7B68EE] shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <BsFillPersonLinesFill />
+                  </div>
                 </a>
                   
               </div>
@@ -167,4 +167,4 @@ const Navbar = () => {
 };
 
 
-export default Navbar
+export default Navbar;

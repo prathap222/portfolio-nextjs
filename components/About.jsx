@@ -14,13 +14,13 @@ const About = () => {
             and working with computers. In 2022 I joined Bootcamp for web development diploma course.
           </p>
           <p className='py-2 text-gray-700'>
-            Bootcamp i learnt javascript,React,Ruby,node js and i have done lot of live projects.I have earned lot of experience there. Now 
-            im spending my time building  projects with React JS, Tailwind css , and learing new technologies.
+            In Bootcamp I learnt Javascript,React,Ruby,Node js. I have done lot of live projects and have earned lot of experience there. Now
+            I'm spending my time building  projects with React JS, Tailwind CSS , and learing new technologies.
           </p>
           <p className='py-2 text-gray-700 underline cursor-pointer'>Checkout some of my latest projects </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-        <Image src={AboutImg} className='rounded-xl' alt='/' />
+          <Image src={AboutImg} className='rounded-xl' alt='/' />
         </div>
       </div>
     </div>
