@@ -13,10 +13,10 @@ const Main = () => {
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-gray-800'>
-            LET'S BUILD SOMING TOGETHER
+            LET&apos;S BUILD SOMING TOGETHER
           </p>
           <h1 className='py-4 text-gray-800'>
-              Hi, I'm <span className='text-[#5651e5]'>Prathap</span>
+              Hi, I&apos;m <span className='text-[#5651e5]'>Prathap</span>
           </h1>
           <h1 className='py-4 text-gray-800'>
                 A Full-stack Web Developer
