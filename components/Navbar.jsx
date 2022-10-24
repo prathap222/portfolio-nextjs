@@ -55,19 +55,24 @@ const Navbar = () => {
         <div>
           <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
             <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+              {/* <li className='ml-10 text-sm uppercase hover:border-b'>Home</li> */}
+              <button className='px-3 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300 ' >Home</button>
             </Link>
             <Link href='/#about'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+              {/* <li className='ml-10 text-sm uppercase hover:border-b'>About</li> */}
+              <button className='px-3 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300'>About</button>
             </Link>
             <Link href='/#skills'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+              {/* <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li> */}
+              <button className='px-3 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300'>Skills</button>
             </Link>
             <Link href='/#projects'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+              {/* <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li> */}
+              <button className='px-3 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300'>Projects</button>
             </Link>
             <Link href='/#contact'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+              {/* <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li> */}
+              <button className='px-3 py-2 mt-4 mr-8 cursor-pointer hover:scale-110 ease-in duration-300'>Contact</button>
             </Link>
           </ul>
           <div onClick={handleNav} className='md:hidden'>
