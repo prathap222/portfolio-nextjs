@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-import NavLogo from '../public/assets/navLogo.jpeg';
+import NavLogo from '../public/assets/navLogo1.jpeg';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {

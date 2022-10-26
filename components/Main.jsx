@@ -9,10 +9,10 @@ import Image from 'next/image';
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+    <div id='home' className='w-full h-screen text-center '>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-2  flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-800'>
+          <p className='uppercase text-sm tracking-widest text-gray-800 '>
             LET&apos;S BUILD SOMING TOGETHER
           </p>
           <h1 className='py-4 text-gray-800'>
