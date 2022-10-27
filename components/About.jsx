@@ -8,12 +8,12 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-700'> I&apos;m a passionate developer</p>
-          <p className='py-2 text-gray-700'>I have spent the last 10 years in the customer service working as a opration executive. I have always had a knack for tectnology
+          <h2 className='py-4 text-[#eeeef8]'>Who I Am</h2>
+          <p className='py-2 text-[#eeeef8]'> I&apos;m a passionate developer</p>
+          <p className='py-2 text-[#eeeef8]'>I have spent the last 10 years in the customer service working as a opration executive. I have always had a knack for tectnology
             and working with computers. In 2022 I joined Bootcamp for web development diploma course.
           </p>
-          <p className='py-2 text-gray-700'>
+          <p className='py-2 text-[#eeeef8]'>
             In Bootcamp I learnt Javascript,React,Ruby,Node js. I have done lot of live projects and have earned lot of experience there.
             Now I&apos;m spending my time building  projects with React JS, Tailwind CSS , and learing new technologies.
           </p>
@@ -23,7 +23,7 @@ const About = () => {
             target='_blank'
             rel='noreferrer'
           >
-            <p className='py-2 text-gray-700 underline cursor-pointer'>Checkout some of my latest projects </p>
+            <p className='py-2 text-[#73d9f6] underline cursor-pointer'>Checkout some of my latest projects </p>
           </a>
 
 

@@ -18,9 +18,9 @@ const Wanderlust = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
-          <p>Wanderlust is a trip planner app to explore and plan activities in your budget around British Colombia cities.</p>
+          <p className='py-4 text-[#f8f7fc]' >Project</p>
+          <h2 className='py-4 text-[#f8f7fc]'>Overview</h2>
+          <p className='py-4 text-[#f8f7fc]'>Wanderlust is a trip planner app to explore and plan activities in your budget around British Colombia cities.</p>
           <a
             href='https://github.com/prathap222/wanderlust'
             target='_blank'
@@ -37,7 +37,7 @@ const Wanderlust = () => {
           </a>
 
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
+        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 bg-slate-50'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>

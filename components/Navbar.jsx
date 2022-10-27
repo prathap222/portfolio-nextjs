@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-import NavLogo from '../public/assets/navLogo1.jpeg';
+import NavLogo from '../public/assets/navLogo4.jpeg';
 import { useRouter } from 'next/router';
 
 const Navbar = () => {
@@ -22,10 +22,10 @@ const Navbar = () => {
       router.asPath === '/scheduler'
     ) {
       setNavBg('transparent');
-      setLinkColor('#ecf0f3');
+      setLinkColor('#353738');
     } else {
-      setNavBg('#ecf0f3');
-      setLinkColor('#1f2937');
+      setNavBg('#353738');
+      setLinkColor('#353738');
     }
 
   }, [router]);

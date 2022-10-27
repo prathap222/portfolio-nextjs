@@ -11,7 +11,7 @@ const Contact = () => {
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240] m-auto px-2 py-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
-        <h2 className='py-4'>Get In Touch</h2>
+        <h2 className='py-4 text-[#f8f7fc]'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -20,16 +20,16 @@ const Contact = () => {
                 <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="" />
               </div>
               <div>
-                <h2 className='py-2'>
+                <h2 className='py-2 text-[#f8f7fc]'>
       Prathap
                 </h2>
-                <p>Front-End Developer</p>
-                <p className='py-4'> I am avilable for full-time positions or freelance. Contact me and let&aposs talk.</p>
+                <p className='py-4 text-[#f8f7fc]'>Front-End Developer</p>
+                <p className='py-4 text-[#f8f7fc]'> I am avilable for full-time positions or freelance. Contact me and let&aposs talk.</p>
               </div>
 
 
               <div>
-                <p className='uppercase pt-8'>Connect With Me</p>
+                <p className='uppercase pt-8 text-[#f8f7fc]'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
                     href='https://www.linkedin.com/in/prathap222/'
