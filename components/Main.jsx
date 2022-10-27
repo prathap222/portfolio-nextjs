@@ -10,17 +10,17 @@ import Image from 'next/image';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center '>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-2  flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-4  flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-gray-800 '>
-            LET&apos;S BUILD SOMING TOGETHER
+          <p className='uppercase text-sm tracking-widest text-gray-800'>
+            LET&apos;S BUILD SOMETHING TOGETHER
           </p>
-          <h1 className='py-4 text-gray-800'>
+          <h2 className='py-4 text-gray-800'>
               Hi, I&apos;m <span className='text-[#5651e5]'>Prathap</span>
-          </h1>
-          <h1 className='py-4 text-gray-800'>
+          </h2>
+          <h2 className='py-4 text-gray-800'>
                 A Full-stack Web Developer
-          </h1>
+          </h2>
           <p className='py-4 text-gray-700 max-w-[70%] m-auto'>
               Full-stack developer with process, and operational experience looking forward to learn and gain developer experience. Motivated to use proven teamwork, communication, and organisational skills to delivery high-quality work.
           </p>
