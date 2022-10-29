@@ -10,7 +10,7 @@ import Image from 'next/image';
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center '>
-      <div className='max-w-[1240px] w-full h-full mx-auto p-4  flex justify-center items-center'>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-8  flex justify-center items-center'>
         <div>
           <p className='uppercase text-sm tracking-widest text-[#eeeef8]'>
             LET&apos;S BUILD SOMETHING TOGETHER
