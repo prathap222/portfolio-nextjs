@@ -7,15 +7,14 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
+          <p className='uppercase text-xl tracking-widest text-[#c92d69]'>About</p>
           <h2 className='py-4 text-[#eeeef8]'>Who I Am</h2>
           <p className='py-2 text-[#eeeef8]'> I&apos;m a passionate developer</p>
-          <p className='py-2 text-[#eeeef8]'>I have spent the last 10 years in the customer service working as a opration executive. I have always had a knack for tectnology
-            and working with computers. In 2022 I joined Bootcamp for web development diploma course.
+          <p className='py-2 text-[#eeeef8]'>I have spent the last 10 years in customer service working as a senior operations executive. I have always had a knack for technology and working with computers. In 2022, I completed a web development diploma course Bootcamp in Lighthouse Labs, Vancouver.
           </p>
           <p className='py-2 text-[#eeeef8]'>
-            In Bootcamp I learnt Javascript,React,Ruby,Node js. I have done lot of live projects and have earned lot of experience there.
-            Now I&apos;m spending my time building  projects with React JS, Tailwind CSS , and learing new technologies.
+          In Bootcamp, I learned Javascript, React, Ruby, Node js, and more. I have done a lot of live projects and have earned a lot of experience there. Now I'm spending my time learning new technologies and building projects with React JS, Tailwind CSS, and others.
+
           </p>
 
           <a

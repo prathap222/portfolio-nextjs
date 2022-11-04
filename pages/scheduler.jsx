@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import SchedulerImg from '../public/assets/projects/interview.png';
+import NewsImg from '../public/assets/projects/news.png';
 import {RiRadioButtonFill} from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,10 +9,10 @@ const scheduler = () => {
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10 '/>
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={SchedulerImg} alt='/'/>
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={NewsImg} alt='/'/>
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Scheduler</h2>
-          <h3> Tech Stack: React,JavaScript,  Axios, Classnames, Storybook, PostgresSQL, SASS, Cypress </h3>
+          <h2 className='py-2'>AI-News-App</h2>
+          <h3> Tech Stack: React,JavaScript,  Alan AI, Material UI </h3>
         </div>
       </div>
 
@@ -20,16 +20,16 @@ const scheduler = () => {
         <div className='col-span-4'>
           <p className='py-4 text-[#f8f7fc]'>Project</p>
           <h2 className='py-4 text-[#f8f7fc]'>Overview</h2>
-          <p className='py-4 text-[#f8f7fc]'>Interview Scheduler is a single-page application (SPA) that allows users to book technical interviews between students and mentors.</p>
+          <p className='py-4 text-[#f8f7fc]'>Voice Controlled React News Application - Alan AI Voice Assistant.</p>
           <a
-            href='https://github.com/prathap222/scheduler'
+            href='https://ai-news-rauxxyg4p-prathap222.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/prathap222/scheduler'
+            href='https://github.com/prathap222/AI-News-App'
             target='_blank'
             rel='noreferrer'
           >
@@ -44,12 +44,12 @@ const scheduler = () => {
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>React</p>
               <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>JavaScript</p>
-              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Axios</p>
-              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Classnames</p>
-              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Storybook</p>
+              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Alan AI</p>
+              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Material UI</p>
+              {/* <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Storybook</p>
               <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>PostgresSQL</p>
               <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>SASS</p>
-              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Cypress</p>
+              <p className='text-gray-700 py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Cypress</p> */}
             
             
             

@@ -22,7 +22,7 @@ const Main = () => {
                 A Full-stack Web Developer
           </h2>
           <p className='py-4 text-[#eeeef8] max-w-[70%] m-auto'>
-              Full-stack developer with process, and operational experience looking forward to learn and gain developer experience. Motivated to use proven teamwork, communication, and organisational skills to delivery high-quality work.
+          Full-stack developer with processes, and operational experience looking forward to learning and gaining developer experience. Motivated to use proven teamwork, communication, and organizational skills to deliver high-quality work.
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a

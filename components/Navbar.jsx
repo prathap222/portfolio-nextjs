@@ -46,7 +46,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div style={{background:`${navBg}`}} className={shadow ? 'fixed w-full h-17 shadow-xl z-[100]' : 'fixed w-full h-17  z-[100]'}>
+    <div style={{background:`${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
       <div className='flex justify-between item-center w-full h-full px-2 2xl:px-16 '>
         <Link href='/'>
           <Image src={NavLogo} alt="/" width='125' height='50' />
@@ -97,7 +97,7 @@ const Navbar = () => {
             </div>
             <div className='border-b border-gray-300 my-4'>
               <p className=' w-[85%] md:w-[90%] py-4'>
-                Let&apos;s build somithing legendary together
+                Let&apos;s build something legendary together
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li>
               </Link>
               <Link  href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>Project</li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm'>Projects</li>
               </Link>
               <Link  href='/#contact'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>

@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
+        <p className='text-xl tracking-widest uppercase text-[#c92d69]'>Skills</p>
         <h2 className='py-4 text-[#fbf6f8]'>What I Can Do</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-rose-300 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
@@ -87,7 +87,7 @@ const Skills = () => {
                 <Image src={TailwindImg} width='64px' height='64px' alt="/" />
 
               </div>
-              <div className='flex flex-col items-center justify-center text-[#f8f7fc]'>
+              <div className='flex flex-col items-center justify-center text-[#141415]'>
                 <h3>Tailwind</h3>
               </div>
             </div>
@@ -158,7 +158,7 @@ const Skills = () => {
 
               </div>
               <div className='flex flex-col items-center justify-center text-[#141415]'>
-                <h3>MeterialUi</h3>
+                <h3>Material UI</h3>
               </div>
             </div>
 
