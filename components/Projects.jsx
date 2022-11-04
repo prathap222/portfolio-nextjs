@@ -29,7 +29,7 @@ const Projects = () => {
             projectUrl='/jungle'
           />
           <ProjectItem
-            title='Scheduler'
+            title='AI-News-App'
             backgroundImg={NewsImg}
             projectUrl='/scheduler'
           />
