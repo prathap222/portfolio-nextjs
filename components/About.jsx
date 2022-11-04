@@ -13,7 +13,7 @@ const About = () => {
           <p className='py-2 text-[#eeeef8]'>I have spent the last 10 years in customer service working as a senior operations executive. I have always had a knack for technology and working with computers. In 2022, I completed a web development diploma course Bootcamp in Lighthouse Labs, Vancouver.
           </p>
           <p className='py-2 text-[#eeeef8]'>
-          In Bootcamp&apos; I learned Javascript, React, Ruby, Node js, and more. I have done a lot of live projects and have earned a lot of experience there. Now I&apos;m spending my time learning new technologies and building projects with React JS, Tailwind CSS, and others.
+          In Bootcamp, I learned Javascript, React, Ruby, Node js, and more. I have done a lot of live projects and have earned a lot of experience there. Now I&apos;m spending my time learning new technologies and building projects with React JS, Tailwind CSS, and others.
 
           </p>
 
