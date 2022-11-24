@@ -61,7 +61,7 @@ const Main = () => {
 
           </div>
 
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300  ">
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-90 md:w-90 shadow-lg shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300  ">
             <Image src={ProfileImg} layout="fill" objectFit="cover" />
           </div>
 
