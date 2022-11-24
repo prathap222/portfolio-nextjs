@@ -12,7 +12,7 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center '>
       <div className='max-w-[1240px] w-full h-full mx-auto py-16  flex justify-center items-center'>
         <div>
-          <p className='uppercase text-sm tracking-widest text-[#eeeef8]'>
+          <p className='uppercase text-sm tracking-widestw-full h-full mx-auto py-16 text-[#eeeef8]'>
             LET&apos;S BUILD SOMETHING TOGETHER
           </p>
           <h2 className='py-2 text-[#eeeef8]'>
